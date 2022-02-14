@@ -1,0 +1,57 @@
+*{
+    user-select: none;
+}
+body{
+    background-image: url("../img/nie.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.cuadro{
+    margin: 50px auto;
+    width: 30%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border: 5px dashed #FF6712;
+    border-radius: 5px;
+}
+.cuadro h1{
+    font-family: monospace;
+    color: white;
+    background: #FF6712;
+    font-size: 35px;
+    border-radius: 15px;
+}
+
+.puntajeCate{
+    border: 2px  solid white;
+    margin: 20px;
+    border-radius: 14px;
+}
+
+.puntajeCate p{
+    font-size: 17px;
+    color: antiquewhite;
+    font-weight: bold;
+
+}
+
+p{
+    font-size: 20px;
+    color: white;
+}
+.cuadro a{
+    background-color: #FF6712;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.cuadro a:hover{
+    background-color: white;
+    color: black;
+}
